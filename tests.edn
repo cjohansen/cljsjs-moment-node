@@ -1,0 +1,8 @@
+#kaocha/v1
+{:kaocha.watch/ignore ["**/#*" "**/.#*"]
+ :tests [{:id :unit
+          :type :kaocha.type/cljs
+          :cljs/timeout 5000
+          :cljs/repl-env cljs.repl.browser/repl-env
+          ;;:cljs/repl-env cljs.repl.node/repl-env
+          }]}

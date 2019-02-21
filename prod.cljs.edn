@@ -1,0 +1,5 @@
+{:main cljsjs-moment-test.core
+ :optimizations :simple
+ :pretty-print true
+ :target :nodejs
+ :install-deps true}
